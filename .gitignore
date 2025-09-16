@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Editor/IDE specific files
+.vscode/ # VS Code settings
+.idea/ # PyCharm/IntelliJ IDEA settings
+*.swp # Vim swap files
+*~ # Emacs backup files
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Temporary files, logs, and build artifacts
+*.log
+*.tmp
+*.bak
+dist/
+build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Database files (if using local SQLite)
+*.sqlite3
+db.sqlite3
+
+# Specific framework files (examples)
+# Django
+local_settings.py
+
+# Flask
+instance/
+
+# Scrapy
+.scrapy/
